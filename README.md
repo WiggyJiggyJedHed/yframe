@@ -29,6 +29,6 @@ curl https://raw.githubusercontent.com/WiggyJiggyJedHed/yframe/main/yframe_termu
 ## Plans for the Script
 
 - [x] Get it working as needed
-- [ ] Remove `line 11: [: missing ]` error on successful run
+- [x] Remove `line 11: [: missing ]` error on successful run
 - [ ] Condense the three versions into one script
-- [ ] Create version for Windows (maybe Mac :shrug: )
+- [ ] Create version for Windows (maybe Mac assuming three above don't work :shrug: )

@@ -8,7 +8,7 @@ link=$1
 
 [ "$link" != "$1" ] && check=$(grep -e "youtube" -e "youtu.be" <<< $link) || check=$(grep -e "youtube" -e "youtu.be" <<< $1) 
 
-[ -z $check] && echo "Please provide valid youtube link" && exit 1
+[ -z "$check" ] && echo "Please provide valid youtube link" && exit 1
 
 # Extract the video ID and start time (if present) from the YouTube link
 if echo $link | grep -q "youtube.com"; then
