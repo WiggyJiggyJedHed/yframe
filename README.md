@@ -4,31 +4,17 @@ Quick tool to covert a YouTube link into an HTML `iframe` for note taking or web
 
 ## Setup
 
- **This script requires [Xclip](https://github.com/astrand/xclip) or [WL-Clipboard](https://github.com/bugaevc/wl-clipboard) depending on whether you're using Xorg or Wayland, respectively**. 
+**This script requires [Xclip](https://github.com/astrand/xclip), [WL-Clipboard](https://github.com/bugaevc/wl-clipboard), or if you're using Android, [Termux](https://github.com/termux/termux-app) depending on whether you're using Xorg, Wayland, or your phone, respectively**. 
  
- Go to a directory listed in the output of your `$PATH`. Once there, run one of the commands listed below depending on what you're using it with.
-
-### Xclip
+Go to a directory listed in the output of your `$PATH`. Once there, run the following. ***Please for your own sake, review the code first make sure it is optimized for your system!***
 
 ```shell
-curl https://raw.githubusercontent.com/WiggyJiggyJedHed/yframe/main/yframe_xclip > yframe; sudo chmod +x yframe
-```
-
-### WL-Clipboard
-
-```shell
-curl https://raw.githubusercontent.com/WiggyJiggyJedHed/yframe/main/yframe_wl-clipboard > yframe; sudo chmod +x yframe
-```
-
-### Termux
-
-```shell
-curl https://raw.githubusercontent.com/WiggyJiggyJedHed/yframe/main/yframe_termux > yframe; chmod +x yframe
+curl https://raw.githubusercontent.com/WiggyJiggyJedHed/yframe/main/yframe > yframe; sudo chmod +x yframe
 ```
 
 ## Plans for the Script
 
 - [x] Get it working as needed
 - [x] Remove `line 11: [: missing ]` error on successful run
-- [ ] Condense the three versions into one script
-- [ ] Create version for Windows (maybe Mac assuming three above don't work :shrug: )
+- [x] Condense the three versions into one script
+- [ ] Create version for Windows (maybe Mac assuming the above doesn't work :shrug: )
